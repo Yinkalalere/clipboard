@@ -1,0 +1,276 @@
+* {
+    margin:0;
+    padding:0;
+    Font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+p{
+    color:grey;
+}
+
+#header {
+    background-image: url(images/bg-header-desktop.png);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    height:300px;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-bottom:100px;
+}
+
+.container p {
+   width:500px;
+   text-align:center;
+}
+
+.container h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+#big {
+    width: 625px;
+    margin-bottom:50px;
+}
+
+#push p{
+    margin-bottom:30px;
+}
+
+.button{
+    display:flex;
+    margin:30px;
+    border-color: initial;
+}
+
+.button button{
+    margin:5px;
+    width:200px;
+    border-radius: 30px;
+    color:white;
+    padding:13px;
+}
+
+#green {
+    background-color:hsl(171, 66%, 44%);
+    border-color: hsl(171, 66%, 44%);
+}
+
+#purple {
+    background-color:  hsl(233, 100%, 69%);
+    border-color:  hsl(233, 100%, 69%);;
+}
+
+.mart{
+    display:flex;
+    column-count: 2;
+    margin-left:300px;
+}
+
+#namex{
+    position:relative;
+}
+
+#namex::before{
+    content:'';
+    position: absolute;
+    top:0;
+    bottom:0;
+    width:100px;
+    left:0;
+    background-color:white;
+}
+
+
+.column{
+    display:flex;
+    flex-direction: column;
+    width:350px;
+    text-align: start;
+    margin:50px 0px 150px 100px;
+}
+
+.column h3{
+    line-height: 40px;
+}
+
+.column p{
+    line-height: 30px;
+}
+
+#saka {
+    margin-bottom:50px;
+}
+.icons {
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:150px;
+}
+
+.align {
+    width:400px;
+    margin-left:50px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.align p{
+    text-align:center;
+    line-height:30px;
+}
+
+.align h3{
+    margin-bottom:20px;
+}
+
+.align img{
+    margin-bottom:20px;
+}
+
+.logo {
+    display:flex;
+    justify-content:space-around;
+    margin-bottom: 150px;
+    margin-top:50px;
+}
+
+#box{
+    margin-bottom:100px;
+}
+
+#box h1{
+     margin-bottom:20px;
+     font-size:25px;
+}
+
+.foot{
+    display:flex;
+    background-color: hsl(201, 11%, 90%);
+    color:hsl(210, 10%, 33%);
+    align-items:center;
+    height:150px;
+}
+
+#img img{
+    margin:0px 200px 0px 300px;
+    height:50px;
+}
+
+.foot ul{
+    column-count: 3;
+    list-style-type:none;
+    margin-right:300px;
+}
+
+.foot li{
+    line-height:40px;
+}
+
+li:hover{
+    color:hsl(171, 66%, 44%);
+}
+
+#media{
+    margin-right: 50px;
+}
+
+.med :hover{
+    color:hsl(171, 66%, 44%);
+} 
+}
+
+#space{
+    margin-right:100px;
+}
+
+@media screen and (max-width:765px) {
+    #header{
+        height:300px;
+    }
+
+    .container p{
+        width:350px;
+    }
+    .container h2{
+        width:300px;
+        text-align:center;
+    }
+    .button{
+        flex-direction:column;
+    }
+
+    #big{
+        width:350px;
+    }
+    .mart{
+        flex-direction:column;
+        margin-left:0px;
+    }
+    #namex{
+        margin-bottom:100px;
+    }
+    .img1{
+        width:350px;
+        margin-left: 5px;
+    }
+    #namex::before{
+        position:static;
+    }
+    .column{
+        margin:0px;
+        text-align: center;
+    }
+    #pic{
+        width:20px;
+    }
+    .icons{
+        flex-direction: column;
+    }
+    .logo{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .log{
+        text-align:center;
+        margin-bottom:50px;
+    }
+    .align{
+        width:350px;
+        margin-left:0px;
+        text-align: center;
+    }
+    .align p{
+        width:300px;
+        margin-bottom:50px;
+    }
+    .align h2{
+        margin-top:50px;
+    }
+    
+    .foot{
+        flex-direction: column;
+        height:500px;
+    }
+    .foot ul{
+        flex-direction: column;
+        column-count: 1;
+        margin-right: 0px;
+        text-align:center;
+        margin-bottom:50px;
+    }
+    #space{
+        margin-right: 0px;
+    }
+    #img img{
+        margin:30px 0px 50px 0px;
+    }
+}
